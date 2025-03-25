@@ -1,0 +1,55 @@
+/* color and such things */
+*{
+    margin: 8px;
+  }
+  
+  p{
+    font-family: 'Eagle Lake';
+      text-size: 100px;
+      color: green;
+  }
+  
+  h1{
+    font-family: 'Eagle Lake';
+      text-size: 100px;
+      color: red;
+  }
+  
+  h2{color: blue;}
+  
+  .div1{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    border: 0px solid orange;
+    border-radius: 100%;
+    padding: 20px;
+    margin: 30px;
+  }
+  
+  .div2{
+    background-color: red;
+    height: 90px;
+    width: 90px;
+    border: 0px solid red;
+    border-radius: 100%;
+    padding: 7px;
+    margin: 47px;
+  }
+  
+  .div3{
+    background-color: yellow;
+    height: 80px;
+    width: 80px;
+    border: 0px solid yellow;
+    border-radius: 100%;
+    padding: 7px;
+    margin: 50px;
+  }
+
+  .container {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    color: red;
+  }
